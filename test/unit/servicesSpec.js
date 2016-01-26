@@ -1,4 +1,4 @@
-describe('factory: Cards', function(){
+describe('cccApp services, factory: Cards', function(){
 
   var cards;
   var httpBackend;
