@@ -1,5 +1,11 @@
-var cccServices = angular.module('cccServices', ['ngResource']);
+var cccServices = angular.module('cccServices', []);
 
-cccServices.factory('Card', ['$resource',
- 
+cccServices.factory('Cards', ['$http',
+  function($http){
+    return {
+      getList: function() {
+        return $http.get('cards/cards.json');
+      }
+    };
+  }
 ]);
