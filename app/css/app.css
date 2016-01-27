@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  max-width: 917px;
+  max-width: 836px;
   margin: auto;
   margin-top: 10px;
 }
@@ -21,6 +21,16 @@ a {
   padding-top: 10px !important;
 }
 
+.home {
+  color: white;
+  border: none;
+  background-color: #181d42;
+  width: 50px;
+  height: 41px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
 .btn.btn-default.navbar-btn {
   color: white;
   border: none;
@@ -28,6 +38,11 @@ a {
   width: 127px;
   height: 41px;
   border-radius: 8px;
+  font-size: 12px;
+}
+
+button:hover {
+  background-image: -webkit-linear-gradient(top, #181d42, #181d42) !important;
 }
 
 .card-list-section {
@@ -35,7 +50,7 @@ a {
 }
 
 .card-article {
-  max-width: 917px;
+  max-width: 836px;
   margin: auto;
   padding-bottom: 18px;
 }
@@ -46,6 +61,10 @@ a {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   height: 62px;
+}
+
+.card-header:hover {
+  background-image: -webkit-linear-gradient(top, #181d42, #181d42) !important;
 }
 
 .card-name {
@@ -80,7 +99,7 @@ a {
 
 .card-info {
   max-width: 340px;
-  margin-left: 232px;
+  margin-left: 210px;
   margin-top: -85px;
 }
 
@@ -88,7 +107,7 @@ a {
   max-width: 150px;
   max-height: 66px;
   float: right;
-  margin-right: 142px;
+  margin-right: 104px;
   margin-top: -87px;
 }
 
