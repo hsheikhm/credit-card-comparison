@@ -6,9 +6,24 @@
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
-  <body>
+  <body class="container">
 
-    <div ng-controller="CardListCtrl as cardCtrl">
+    <header>
+      <a class="brand-logo" href="#"><img alt="Brand" src="img/ctm-logo.svg"></a>
+      <nav class="">
+        <div class="">
+          <button type="button" class="btn btn-default navbar-btn">Home</button>
+          <button type="button" class="btn btn-default navbar-btn">Vehicles</button>
+          <button type="button" class="btn btn-default navbar-btn">Home & pet</button>
+          <button type="button" class="btn btn-default navbar-btn">Finances</button>
+          <button type="button" class="btn btn-default navbar-btn">Life</button>
+          <button type="button" class="btn btn-default navbar-btn">Business</button>
+          <button type="button" class="btn btn-default navbar-btn">Travel</button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="card-list-section" ng-controller="CardListCtrl as cardCtrl">
       <div ng-view></div>
     </div>
 

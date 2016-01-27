@@ -1,4 +1,37 @@
+body {
+  background-color: #004a8e !important;
+}
+
+header {
+  max-width: 917px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.btn.btn-default.navbar-btn {
+  color: white;
+  border: none;
+  background-image: -webkit-linear-gradient(top, #004a8e, #181d42);
+  width: 127px;
+  height: 41px;
+  border-radius: 8px;
+}
+
+
+
 .card-article {
   border-style: solid;
   border-width: 1px;
+}
+
+.card-list-section {
+  padding-top: 160px;
+}
+
+.navbar-brand {
+  padding-bottom: 53px !important;
+}
+
+.navbar {
+  padding-top: 10px !important;
 }
