@@ -1,3 +1,12 @@
-<ul ng-repeat="card in cardCtrl.cards">
-  <li>{{card}}</li>
-</ul>
+<section ng-repeat="card in cardCtrl.cards | orderBy: 'apr'">
+  <article class="card-article">
+    <span ng-click="cardCtrl.showCard(card)">
+      <p>{{card.name}}</p>
+      <p>{{card.apr}}%APR</p>
+    </span>
+    <div ng-show="cardCtrl.cardIsSet(card)">
+      <div>{{card.information}}</div>
+      <div>{{card.cashback}}</div>
+    </div>
+  </article>
+</section>

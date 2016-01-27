@@ -7,5 +7,13 @@ cccControllers.controller('CardListCtrl', ['Cards',
     Cards.getList().then(function(response){
       self.cards = response.data;
     });
+
+    self.showCard = function(card){
+      self.card = card;
+    };
+
+    self.cardIsSet = function(card){
+      return self.card === card;
+    };
   }
 ]);
