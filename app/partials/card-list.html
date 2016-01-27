@@ -1,16 +1,28 @@
 <section ng-repeat="card in cardCtrl.cards | orderBy: 'apr'">
   <article class="card-article">
     <a>
-      <span ng-click="cardCtrl.showCard(card)">
-        <p>{{card.name}}</p>
-        <p>{{card.apr}}%APR</p>
-      </span>
+      <div class="card-header" ng-click="cardCtrl.showCard(card)">
+        <div class="card-name">
+          <p>{{card.name}}</p>
+        </div>
+        <div class="card-apr">
+          <p>{{card.apr}}% APR</p>
+        </div>
+      </div>
     </a>
-    <div ng-show="cardCtrl.cardIsSet(card)">
-      <div><img ng-src="img/{{card.code}}.png"></div>
-      <div>{{card.information}}</div>
-      <h4>Cashback</h4>
-      <div>{{card.cashback}}</div>
+    <div class="card-details-div" ng-show="cardCtrl.cardIsSet(card)">
+      <div class="card-image">
+        <img ng-src="img/{{card.code}}.png">
+      </div>
+      <div class="card-cashback">
+        <p class="cashback-text">Cashback</p>
+        <div class="cashback-value">
+          <p>£{{card.cashback | number:2}}</p>
+        </div>
+      </div>
+      <div class="card-info">
+        {{card.information}}
+      </div>
     </div>
   </article>
 </section>
