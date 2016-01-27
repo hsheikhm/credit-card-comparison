@@ -9,7 +9,7 @@ cccControllers.controller('CardListCtrl', ['Cards',
     });
 
     self.showCard = function(card){
-      self.card = card;
+      return self.card == card ? self.card = false : self.card = card;
     };
 
     self.cardIsSet = function(card){

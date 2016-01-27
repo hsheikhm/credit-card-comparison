@@ -67,10 +67,15 @@ button:hover {
   background-image: -webkit-linear-gradient(top, #181d42, #181d42) !important;
 }
 
+.glyphicon {
+  padding-right: 7px;
+  color: #38b132;
+}
+
 .card-name {
   font-size: 18px;
   padding-top: 20px;
-  padding-left: 53px;
+  padding-left: 16px;
   max-width: 450px;
 }
 

@@ -3,7 +3,11 @@
     <a>
       <div class="card-header" ng-click="cardCtrl.showCard(card)">
         <div class="card-name">
-          <p>{{card.name}}</p>
+          <p>
+            <span class="glyphicon glyphicon-chevron-down" ng-show="cardCtrl.cardIsSet(card)"></span>
+            <span class="glyphicon glyphicon-chevron-right" ng-hide="cardCtrl.cardIsSet(card)"></span>
+            {{card.name}}
+          </p>
         </div>
         <div class="card-apr">
           <p>{{card.apr}}% APR</p>
