@@ -3,9 +3,9 @@ body {
 }
 
 header {
-  max-width: 836px;
+  max-width: 890px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 a {
@@ -17,8 +17,8 @@ a {
   padding-bottom: 53px !important;
 }
 
-.navbar {
-  padding-top: 10px !important;
+.custom-nav {
+  margin-top: 3px;
 }
 
 .home {
@@ -35,7 +35,7 @@ a {
   color: white;
   border: none;
   background-image: -webkit-linear-gradient(top, #004a8e, #181d42);
-  width: 127px;
+  width: 136px;
   height: 41px;
   border-radius: 8px;
   font-size: 12px;
@@ -46,11 +46,11 @@ button:hover {
 }
 
 .card-list-section {
-  padding-top: 28px;
+  padding-top: 47px;
 }
 
 .card-article {
-  max-width: 836px;
+  max-width: 883px;
   margin: auto;
   padding-bottom: 18px;
 }
@@ -112,7 +112,7 @@ button:hover {
   max-width: 150px;
   max-height: 66px;
   float: right;
-  margin-right: 104px;
+  margin-right: 129px;
   margin-top: -87px;
 }
 
@@ -127,7 +127,13 @@ button:hover {
   font-weight: bold;
 }
 
-.test {
-  position: absolute;
-
+.line {
+  height: 74px;
+  width: 0.1%;
+  border: 0;
+  color: #333;
+  background-color: #333;
+  float: right;
+  margin-right: 296px;
+  margin-top: -82px;
 }
