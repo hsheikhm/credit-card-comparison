@@ -18,7 +18,15 @@ a {
 }
 
 .custom-nav {
+  max-width: 890px !important;
   margin-top: 3px;
+  background-color: #004a8e !important;
+  border: none !important;
+}
+
+.navbar-collapse {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 .home {
@@ -34,7 +42,7 @@ a {
 .btn.btn-default.navbar-btn {
   color: white;
   border: none;
-  background-image: -webkit-linear-gradient(top, #004a8e, #181d42);
+  background-image: -webkit-linear-gradient(top, #1e488c, #181d42);
   width: 136px;
   height: 41px;
   border-radius: 8px;
@@ -57,9 +65,8 @@ button:hover {
 
 .card-header {
   color: white;
-  background-image: -webkit-linear-gradient(top, #004a8e, #181d42);
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  background-image: -webkit-linear-gradient(top, #1e488c, #181d42);
+  border-radius: 8px;
   height: 62px;
 }
 
