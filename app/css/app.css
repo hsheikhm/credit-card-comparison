@@ -13,6 +13,10 @@ a {
   text-decoration: none !important;
 }
 
+button:hover {
+  background-image: -webkit-linear-gradient(top, #181d42, #181d42) !important;
+}
+
 .navbar-brand {
   padding-bottom: 53px !important;
 }
@@ -27,6 +31,16 @@ a {
 .navbar-collapse {
   padding-right: 0 !important;
   padding-left: 0 !important;
+}
+
+.navbar-toggle {
+  background-color: #1e488c !important;
+  border-color: white !important;
+}
+
+.icon-bar {
+  background-color: white !important;
+  border-color: white !important;
 }
 
 .home {
@@ -47,10 +61,6 @@ a {
   height: 41px;
   border-radius: 8px;
   font-size: 12px;
-}
-
-button:hover {
-  background-image: -webkit-linear-gradient(top, #181d42, #181d42) !important;
 }
 
 .card-list-section {
@@ -143,4 +153,226 @@ button:hover {
   float: right;
   margin-right: 296px;
   margin-top: -82px;
+}
+
+@media only screen and (max-width: 991px) {
+
+  .card-article {
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 18px;
+  }
+
+  .card-header {
+    color: white;
+    background-image: -webkit-linear-gradient(top, #1e488c, #181d42);
+    border-radius: 8px;
+    height: 52px;
+  }
+
+  .glyphicon {
+    padding-right: 7px;
+    color: #38b132;
+  }
+
+  .card-name {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 16px;
+    max-width: 450px;
+  }
+
+  .card-apr {
+    font-size: 14px;
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -32px;
+  }
+
+  .card-details-div {
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    min-height: 150px;
+  }
+
+  .card-image {
+    max-width: 141px;
+    max-height: 120px;
+    margin-left: 38px;
+    padding-top: 18px;
+    padding-bottom: 35px;
+  }
+
+  .card-info {
+    max-width: 290px;
+    margin-left: 210px;
+    margin-top: -102px;
+    font-size: 13px;
+  }
+
+  .card-cashback {
+    max-width: 150px;
+    max-height: 66px;
+    float: right;
+    margin-right: 79px;
+    margin-top: -102px;
+  }
+
+  .cashback-text {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: -8px;
+  }
+
+  .cashback-value {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .line {
+    height: 74px;
+    width: 0.1%;
+    border: 0;
+    color: #333;
+    background-color: #333;
+    float: right;
+    margin-right: 186px;
+    margin-top: -102px;
+  }
+
+}
+
+@media only screen and (max-width: 732px) {
+
+  .card-article {
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 18px;
+  }
+
+  .card-header {
+    color: white;
+    background-image: -webkit-linear-gradient(top, #1e488c, #181d42);
+    border-radius: 8px;
+    height: 52px;
+  }
+
+  .glyphicon {
+    padding-right: 7px;
+    color: #38b132;
+  }
+
+  .card-name {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 16px;
+    max-width: 450px;
+  }
+
+  .card-apr {
+    font-size: 14px;
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -32px;
+  }
+
+  .card-details-div {
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    min-height: 150px;
+  }
+
+  .card-image {
+    max-width: 141px;
+    max-height: 120px;
+    margin-left: 18px;
+    padding-top: 18px;
+    padding-bottom: 35px;
+  }
+
+  .card-info {
+    max-width: 290px;
+    margin-left: 175px;
+    margin-top: -100px;
+    font-size: 11px;
+  }
+
+  .card-cashback {
+    max-width: 150px;
+    max-height: 66px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -30px;
+  }
+
+  .cashback-text {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: -8px;
+  }
+
+  .cashback-value {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .line {
+    height: 94px;
+    width: 0.1%;
+    border: 0;
+    color: #333;
+    background-color: #333;
+    float: right;
+    margin-right: -46px;
+    margin-top: -70px;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: 20% 40%;
+    -webkit-transform: rotate(45deg);
+    -webkit-transform-origin: 20% 40%;
+    transform: rotate(90deg);
+    transform-origin: 20% 40%;
+  }
+
+}
+
+@media only screen and (max-width: 485px) {
+
+  .card-image {
+    max-width: 141px;
+    max-height: 120px;
+    margin-left: 18px;
+    padding-top: 12px;
+    padding-bottom: 35px;
+  }
+
+  .card-info {
+    max-width: 290px;
+    margin-left: 175px;
+    margin-top: -110px;
+    font-size: 11px;
+  }
+
+  .card-cashback {
+    max-width: 150px;
+    max-height: 66px;
+    float: right;
+    margin-right: 12px;
+    margin-top: -12px;
+  }
+
+  .cashback-text {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: -8px;
+  }
+
+  .cashback-value {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
 }
