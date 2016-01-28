@@ -45,6 +45,18 @@ describe('cccApp controllers', function(){
       expect(ctrl.cards).toEqualData(cardsList);
     });
 
+    it("should create a 'card' model once a card has been clicked on", function(){
+      expect(ctrl.card).toBeUndefined();
+      ctrl.showCard("card");
+      expect(ctrl.card).toEqualData("card");
+    });
+
+    it("should check if a 'card' model has already been set", function(){
+      expect(ctrl.cardIsSet("card")).toEqual(false);
+      ctrl.showCard("card");
+      expect(ctrl.cardIsSet("card")).toEqual(true);
+    });
+
   });
 
 });
