@@ -101,7 +101,7 @@ button:hover {
   float: right;
   position: relative;
   margin-right: 20px;
-  margin-top: -32px;
+  margin-top: -35px;
 }
 
 .card-details-div {
@@ -177,7 +177,7 @@ button:hover {
 
   .card-name {
     font-size: 14px;
-    padding-top: 20px;
+    padding-top: 16px;
     padding-left: 16px;
     max-width: 450px;
   }
@@ -187,7 +187,7 @@ button:hover {
     float: right;
     position: relative;
     margin-right: 20px;
-    margin-top: -32px;
+    margin-top: -29px;
   }
 
   .card-details-div {
@@ -266,7 +266,7 @@ button:hover {
 
   .card-name {
     font-size: 14px;
-    padding-top: 20px;
+    padding-top: 16px;
     padding-left: 16px;
     max-width: 450px;
   }
@@ -276,7 +276,7 @@ button:hover {
     float: right;
     position: relative;
     margin-right: 20px;
-    margin-top: -32px;
+    margin-top: -29px;
   }
 
   .card-details-div {
